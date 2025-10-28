@@ -11,6 +11,11 @@
   --color-accent: hsl(40 60% 90%);
   --color-accent-foreground: hsl(26 24% 15%);
   --color-input: hsl(40 30% 85%);
+
+  --font-pacifico: 'Pacifico', cursive;
+  --font-sans: 'Poppins', 'Mulish', sans-serif;
+  --font-serif: 'Playfair Display', serif;
+  --font-heading: 'Mulish', sans-serif;
 }
 
 * {
