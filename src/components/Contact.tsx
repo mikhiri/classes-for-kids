@@ -5,9 +5,9 @@ const contactInfo = [
   {
     icon: Phone,
     title: 'Телефон',
-    content: '+7 988 548 56 10',
-    secondaryContent: 'Пн-Пт: 9:00-20:00',
-    href: 'tel:+79885485610',
+    content: '+7 995 318 56 10',
+    secondaryContent: 'Пн-Сб: 9:00-19:00',
+    href: 'tel:+79953185610',
   },
   {
     icon: MapPin,
@@ -18,7 +18,7 @@ const contactInfo = [
   {
     icon: Mail,
     title: 'Email',
-    content: 'hello@teacherclasses.com',
+    content: 'mail@teacherclasses.com',
     href: 'mailto:hello@teacherclasses.com',
   },
 ]
