@@ -1,5 +1,18 @@
 @import "tailwindcss";
 
+@theme {
+  --color-primary: #FF6628;
+  --color-primary-foreground: #ffffff;
+  --color-border: hsl(40 30% 85%);
+  --color-background: hsl(0 0% 100%);
+  --color-foreground: hsl(26 24% 15%);
+  --color-secondary: hsl(40 100% 97%);
+  --color-secondary-foreground: hsl(26 24% 15%);
+  --color-accent: hsl(40 60% 90%);
+  --color-accent-foreground: hsl(26 24% 15%);
+  --color-input: hsl(40 30% 85%);
+}
+
 * {
   border-color: hsl(40 30% 85%);
 }

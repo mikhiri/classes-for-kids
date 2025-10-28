@@ -10,7 +10,7 @@ export function Hero() {
             <br />
             для детей
             <br />
-            <span className="text-primary">от 5 до 9 лет</span>
+            <span className="text-primary font-pacifico">от 5 до 9 лет</span>
           </h1>
 
           <p className="text-lg md:text-xl text-foreground/80 max-w-2xl mx-auto mb-8 font-sans">
@@ -19,6 +19,7 @@ export function Hero() {
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <Button
+              variant="default"
               size="lg"
               className="shadow-medium hover:shadow-strong transition-all"
               onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
