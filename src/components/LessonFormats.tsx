@@ -1,4 +1,4 @@
-import { Home, Video, Check, Sparkle, Badge, Loader } from 'lucide-react'
+import { Check, Sparkle, Loader } from 'lucide-react'
 import { Card, CardContent, CardHeader, CardTitle } from './Card'
 
 const formats = [
@@ -46,7 +46,6 @@ export function LessonFormats() {
                     <Icon className="w-8 h-8 text-primary" />
                   </div>
                   <CardTitle className="text-2xl">{format.title}</CardTitle>
-                  <p className="text-foreground/70 pt-2">{format.description}</p>
                 </CardHeader>
                 <CardContent>
                   <ul className="space-y-3">

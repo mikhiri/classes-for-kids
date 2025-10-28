@@ -93,10 +93,6 @@ export function Pricing() {
                     </span>
                     <span className="text-foreground/60 ml-2">{plan.period}</span>
                   </div>
-                  <p className="text-sm text-foreground/60">{plan.pricePerClass}</p>
-                  <p className="text-sm font-medium text-foreground mt-2">
-                    {plan.description}
-                  </p>
                 </CardHeader>
                 <CardContent>
                   <ul className="space-y-3">
@@ -128,17 +124,12 @@ export function Pricing() {
             {individualPlans.map((plan, index) => (
               <Card key={index} className="bg-background">
                 <CardHeader className="text-center">
-                  <CardTitle className="text-xl mb-2">{plan.name}</CardTitle>
                   <div className="mb-2">
                     <span className="text-4xl font-bold text-primary">
                       {plan.price}
                     </span>
                     <span className="text-foreground/60 ml-2">{plan.period}</span>
                   </div>
-                  <p className="text-sm text-foreground/60">{plan.pricePerClass}</p>
-                  <p className="text-sm font-medium text-foreground mt-2">
-                    {plan.description}
-                  </p>
                 </CardHeader>
                 <CardContent>
                   <ul className="space-y-3">

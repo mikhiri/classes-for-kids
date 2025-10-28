@@ -4,21 +4,23 @@ import { Card, CardContent, CardHeader, CardTitle } from './Card'
 const contactInfo = [
   {
     icon: Phone,
+    title: 'Телефон',
     content: '+7 988 548 56 10',
     secondaryContent: 'Пн-Пт: 9:00-20:00',
     href: 'tel:+79885485610',
   },
-    {
+  {
     icon: MapPin,
+    title: 'Адрес',
     content: 'ул. 339-й Стрелковой Дивизии, 10А\nЖК "Вместе"',
     href: null,
   },
   {
     icon: Mail,
+    title: 'Email',
     content: 'hello@teacherclasses.com',
     href: 'mailto:hello@teacherclasses.com',
   },
-
 ]
 
 export function Contact() {
