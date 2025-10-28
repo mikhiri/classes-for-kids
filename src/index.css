@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+* {
+  border-color: hsl(40 30% 85%);
+}
+
+body {
+  background-color: hsl(0 0% 100%);
+  color: hsl(26 24% 15%);
+  font-family: 'Poppins', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Playfair Display', serif;
+}
