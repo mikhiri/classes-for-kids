@@ -4,43 +4,35 @@ import { Button } from './Button'
 
 const groupPlans = [
   {
-    name: 'Starter',
-    price: '$120',
-    period: 'per month',
-    pricePerClass: '$15 per class',
-    description: '2 lessons/week • 45 min each',
+    name: 'Школьная программа',
+    price: '5500 руб',
+    period: '/месяц',
     features: [
-      'Small group (4-6 kids)',
-      'Progress reports',
-      'Email support',
+      '2 раза в неделю',
+      '45 мин урок',
+      '687 руб/занятие',
     ],
     popular: false,
   },
   {
-    name: 'Standard',
-    price: '$180',
-    period: 'per month',
-    pricePerClass: '$15 per class',
-    description: '3 lessons/week • 45 min each',
+    name: 'Дошкольная программа',
+    price: '7920 руб',
+    period: '/месяц',
     features: [
-      'Small group (4-6 kids)',
-      'Bi-weekly progress reports',
-      'Priority email support',
-      'Monthly parent meetings',
+      '3 раза в неделю',
+      '45 мин урок',
+      '660 руб/занятие',
     ],
-    popular: true,
+    popular: false,
   },
   {
-    name: 'Premium',
-    price: '$260',
-    period: 'per month',
-    pricePerClass: '$13 per class',
-    description: '5 lessons/week • 45 min each',
+    name: 'Творческие занятия',
+    price: '3800 руб',
+    period: '/месяц',
     features: [
-      'Small group (4-6 kids)',
-      'Weekly progress reports',
-      '24/7 priority support',
-      'Weekly parent meetings',
+      '1 раз в неделю',
+      '90 мин урок',
+      '950 руб/занятие',
     ],
     popular: false,
   },
@@ -48,29 +40,21 @@ const groupPlans = [
 
 const individualPlans = [
   {
-    name: 'Individual Basic',
-    price: '$240',
-    period: 'per month',
-    pricePerClass: '$30 per class',
-    description: '2 lessons/week • 60 min each',
+    price: '7000 руб',
+    period: '/месяц',
     features: [
-      'Personalized curriculum',
-      'Flexible scheduling',
-      'Weekly progress reports',
-      'Direct parent contact',
+     '2 раза в неделю',
+      '45 мин урок',
+      '895 руб/занятие',
     ],
   },
   {
-    name: 'Individual Intensive',
-    price: '$450',
-    period: 'per month',
-    pricePerClass: '$28 per class',
-    description: '4 lessons/week • 60 min each',
+    price: '10000 руб',
+    period: '/месяц',
     features: [
-      'Custom learning plan',
-      'Priority scheduling',
-      'Daily progress updates',
-      'Weekly parent consultations',
+     '3 раза в неделю',
+      '45 мин урок',
+      '833 руб/занятие',
     ],
   },
 ]
@@ -81,16 +65,13 @@ export function Pricing() {
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
           <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-4">
-            Pricing Plans
+            Тарифы
           </h2>
-          <p className="text-lg text-foreground/70 max-w-2xl mx-auto">
-            Flexible options to fit your family's needs and schedule
-          </p>
         </div>
 
         {/* Group Classes */}
         <div className="mb-16">
-          <h3 className="text-2xl font-bold text-center mb-8">Group Classes</h3>
+          <h3 className="text-2xl font-bold text-center mb-8">Групповые занятия до 8 учеников</h3>
           <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
             {groupPlans.map((plan, index) => (
               <Card
@@ -132,7 +113,7 @@ export function Pricing() {
                     className="w-full"
                     variant={plan.popular ? 'default' : 'outline'}
                   >
-                    Enroll Now
+                    Записаться на занятие
                   </Button>
                 </CardFooter>
               </Card>
@@ -142,7 +123,7 @@ export function Pricing() {
 
         {/* Individual Classes */}
         <div>
-          <h3 className="text-2xl font-bold text-center mb-8">Individual Classes</h3>
+          <h3 className="text-2xl font-bold text-center mb-8">Индивидуальные занятия</h3>
           <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
             {individualPlans.map((plan, index) => (
               <Card key={index} className="bg-background">
@@ -171,7 +152,7 @@ export function Pricing() {
                 </CardContent>
                 <CardFooter>
                   <Button className="w-full" variant="outline">
-                    Enroll Now
+                    Записаться на занятие
                   </Button>
                 </CardFooter>
               </Card>

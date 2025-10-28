@@ -4,18 +4,18 @@ import { Card, CardContent, CardHeader, CardTitle } from './Card'
 const approaches = [
   {
     icon: Gamepad2,
-    title: 'Through a Game',
-    description: 'Learning disguised as play. Every lesson incorporates games and activities that make education fun and memorable for young minds.',
+    title: 'Через игру',
+    description: 'Учимся легко и с интересом — через игровые задания, творчество и живые примеры из жизни.',
   },
   {
     icon: Heart,
-    title: 'With Care',
-    description: "Individual attention and nurturing support. Each child's unique needs and learning style are respected and celebrated.",
+    title: 'С заботой',
+    description: "Тёплая атмосфера и внимание к каждому ребёнку — без давления, с поддержкой и добротой.",
   },
   {
     icon: TrendingUp,
-    title: 'With Result',
-    description: 'Measurable progress and skill development. Regular assessments and parent communication ensure your child is advancing confidently.',
+    title: 'С результатом',
+    description: 'Постепенно укрепляем знания и уверенность — чтобы успехи в школе стали естественным результатом.',
   },
 ]
 
@@ -25,10 +25,10 @@ export function OurApproach() {
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
           <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-4">
-            Our Approach
+            Учёба без скуки и стресса
           </h2>
           <p className="text-lg text-foreground/70 max-w-2xl mx-auto">
-            Three pillars that make learning effective and enjoyable
+            Каждое занятие помогает ребёнку развиваться, верить в себя и учиться с удовольствием.
           </p>
         </div>
 

@@ -6,7 +6,7 @@ export function TeacherBio() {
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
           <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-4">
-            Meet Your Teacher
+            О преподавателе
           </h2>
         </div>
 
@@ -26,20 +26,15 @@ export function TeacherBio() {
             {/* Teacher Info */}
             <div className="order-1 md:order-2">
               <h3 className="text-3xl font-bold text-foreground mb-4">
-                Jane Anderson
+                Зубкова Евгения Владимировна
               </h3>
               <p className="text-lg text-foreground/80 mb-6 leading-relaxed">
-                With over 12 years of experience in early childhood education, I've
-                dedicated my career to making learning an exciting journey for young
-                minds. My background includes a Master's degree in Elementary
-                Education and specialized training in play-based learning methodologies.
+                Учительница начальных классов с опытом работы более 10 лет.
               </p>
 
               <p className="text-lg text-foreground/80 mb-8 leading-relaxed">
-                I believe every child has unique gifts and learning styles. My approach
-                focuses on nurturing confidence, curiosity, and creativity through
-                personalized attention and engaging activities that spark genuine
-                excitement about learning.
+                Моя главная цель — не просто объяснить материал, а раскрыть способности ребёнка и развить
+уверенность в себе. На занятиях мы много играем, обсуждаем, рассуждаем и ищем ответы вместе. Я подбираю задания так, чтобы ребёнок учился с увлечением и удовольствием, без страха ошибок.
               </p>
 
               <div className="space-y-4">
@@ -63,8 +58,7 @@ export function TeacherBio() {
                   </div>
                   <div>
                     <h4 className="font-semibold text-foreground mb-1">
-                      12+ Years Experience
-                    </h4>
+                      Опыт работы более 10 лет                    </h4>
                     <p className="text-foreground/70">
                       Working with children ages 5-9
                     </p>
@@ -77,7 +71,7 @@ export function TeacherBio() {
                   </div>
                   <div>
                     <h4 className="font-semibold text-foreground mb-1">
-                      Certified in Play-Based Learning
+                      Первая квалификационная категория
                     </h4>
                     <p className="text-foreground/70">
                       Making education fun and effective
