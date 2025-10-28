@@ -11,6 +11,11 @@
   --color-accent: hsl(40 60% 90%);
   --color-accent-foreground: hsl(26 24% 15%);
   --color-input: hsl(40 30% 85%);
+
+  --font-pacifico: 'Pacifico', cursive;
+  --font-sans: 'Poppins', 'Mulish', sans-serif;
+  --font-serif: 'Playfair Display', serif;
+  --font-heading: 'Mulish', sans-serif;
 }
 
 * {
@@ -25,4 +30,17 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Playfair Display', serif;
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+}
+
+.animate-float {
+  animation: float 6s ease-in-out infinite;
 }
