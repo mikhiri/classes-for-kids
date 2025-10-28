@@ -29,7 +29,7 @@ export function Hero() {
             {/* Mobile/Tablet image - shown below buttons */}
             <div className="lg:hidden flex justify-center mt-8">
               <img
-                src="/technology.svg"
+                src={`${import.meta.env.BASE_URL}technology.svg`}
                 alt="Space and technology illustration"
                 className="w-full max-w-md h-auto animate-float"
               />
@@ -39,7 +39,7 @@ export function Hero() {
           {/* Desktop image - shown on the right */}
           <div className="hidden lg:block absolute right-0 top-1/2 -translate-y-1/2 w-[40%] max-w-lg">
             <img
-              src="/technology.svg"
+              src={`${import.meta.env.BASE_URL}technology.svg`}
               alt="Space and technology illustration"
               className="w-full h-auto animate-float"
             />
