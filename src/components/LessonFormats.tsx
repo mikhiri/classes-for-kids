@@ -1,27 +1,24 @@
-import { Home, Video, Check } from 'lucide-react'
+import { Home, Video, Check, Sparkle, Badge, Loader } from 'lucide-react'
 import { Card, CardContent, CardHeader, CardTitle } from './Card'
 
 const formats = [
   {
-    icon: Home,
-    title: 'In-Person Lessons',
-    description: 'Face-to-face interaction in a comfortable, inspiring learning environment',
+    icon: Sparkle,
+    title: 'Формат',
     features: [
-      'Hands-on activities and materials',
-      'Direct supervision and guidance',
-      'Social interaction with peers',
-      'Immediate feedback and support',
+      '2-3 раза в неделю',
+      'Занятия по 45 минут',
+      'В группах до 8 учеников',
+      'Индивидуально',
     ],
   },
   {
-    icon: Video,
-    title: 'Online Sessions',
-    description: 'Flexible virtual learning from the comfort of your home',
+    icon: Loader,
+    title: 'Виды занятий',
     features: [
-      'Flexible scheduling options',
-      'No travel time required',
-      'Interactive digital tools',
-      'Recording available for review',
+      'Школьная программа',
+      'Дошкольная программа',
+      'Творческие занятия',
     ],
   },
 ]
@@ -32,11 +29,8 @@ export function LessonFormats() {
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
           <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-4">
-            Lesson Formats
+            Занятия
           </h2>
-          <p className="text-lg text-foreground/70 max-w-2xl mx-auto">
-            Choose the learning style that works best for your family
-          </p>
         </div>
 
         <div className="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">

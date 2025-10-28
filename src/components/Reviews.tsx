@@ -5,22 +5,22 @@ import { Button } from './Button'
 
 const reviews = [
   {
-    name: 'Sarah Johnson',
-    role: 'Mother of Emma, 7',
+    name: 'Анастасия',
+    role: 'Мама Вани (5 лет)',
     rating: 5,
-    text: "My daughter looks forward to every class! She's become more confident in reading and her math skills have improved tremendously. The teacher's patience and creativity make all the difference.",
+    text: "Евгения профессионал в работе с детьми. Она находит подход к нашему ребенку с очень сложным характером, который часто к ней на уроки приходил не в духе, а уходил в отличном настроении. Что касается процесса обучения, то даже онлайн занятия с Евгенией показали лучше результаты, чем оффлайн с другим учителем. Мы очень рады, что наш ребёнок учится у такого замечательного учителя. Благодарим за Ваш труд и желаем много хороших учеников.",
   },
   {
-    name: 'Michael Chen',
-    role: 'Father of Lucas, 6',
+    name: 'Кристина',
+    role: 'Мама Сережи (7 лет)',
     rating: 5,
-    text: "We tried several programs before finding this one. The personalized approach and play-based learning have been perfect for our son. He doesn't even realize he's learning - he thinks it's just fun!",
+    text: "Евгения отличный репетитор! Ребенок с удовольствием ходит на занятия, заметно повысилась успеваемость. Педагог всегда найдет подход, объясняет всё понятно и доступно. Как результат, появилась мотивация и интерес к учебе. Очень довольны выбором!",
   },
   {
-    name: 'Emily Rodriguez',
-    role: 'Mother of Sofia, 8',
+    name: 'Вячеслав',
+    role: 'Папа Кати (6 лет)',
     rating: 5,
-    text: "Outstanding teacher and curriculum! Sofia has made incredible progress in just three months. The communication is excellent, and we receive regular updates on her development. Highly recommend!",
+    text: "Евгения относится к детям с огромным уважением, она не просто авторитет, но и настоящий друг, к мнению которого ребенок прислушивается. Мы очень благодарны ей не только за знания, но и за ту теплую, поддерживающую атмосферу, которую она создала.",
   },
 ]
 
@@ -42,11 +42,8 @@ export function Reviews() {
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
           <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-4">
-            What Parents Say
+            Отзывы родителей
           </h2>
-          <p className="text-lg text-foreground/70 max-w-2xl mx-auto">
-            Real feedback from families who trust us with their children's education
-          </p>
         </div>
 
         <div className="max-w-3xl mx-auto relative">

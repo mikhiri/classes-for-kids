@@ -3,23 +3,23 @@ import { Users, User, BookOpen, Calculator, Palette } from 'lucide-react'
 const services = [
   {
     icon: Users,
-    text: 'Small Group Classes (4-6 children) for collaborative learning',
+    text: 'Подготовка к школе',
   },
   {
     icon: User,
-    text: "One-on-One Tutoring tailored to your child's pace",
+    text: "Помощь с домашними заданиями",
   },
   {
     icon: BookOpen,
-    text: 'Reading & Literacy Development programs',
+    text: 'Повышение успеваемости',
   },
   {
     icon: Calculator,
-    text: 'Math Fundamentals through hands-on activities',
+    text: 'Работа с математикой, русским и чтением',
   },
   {
     icon: Palette,
-    text: 'Creative Workshops including art and storytelling',
+    text: 'Мастер-классы и творческие занятия',
   },
 ]
 
@@ -29,10 +29,10 @@ export function WhatWeOffer() {
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
           <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-4">
-            What We Offer
+            Услуги
           </h2>
           <p className="text-lg text-foreground/70 max-w-2xl mx-auto">
-            Comprehensive educational services designed for young learners
+            Всё для успешной и спокойной учёбы: от подготовки к школе до творческих занятий.
           </p>
         </div>
 
@@ -42,7 +42,7 @@ export function WhatWeOffer() {
             return (
               <div
                 key={index}
-                className="flex items-start gap-4 p-6 rounded-lg bg-secondary/20 hover:bg-secondary/40 transition-colors duration-300"
+                className="flex items-start gap-4 p-6 rounded-lg bg-secondary/20 hover:bg-secondary/40 transition-colors duration-300 border-2 border-primary/30"
               >
                 <div className="flex-shrink-0 w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center">
                   <Icon className="w-6 h-6 text-primary" />

@@ -4,22 +4,21 @@ import { Card, CardContent, CardHeader, CardTitle } from './Card'
 const contactInfo = [
   {
     icon: Phone,
-    title: 'Phone',
-    content: '(555) 123-4567',
-    href: 'tel:+15551234567',
+    content: '+7 988 548 56 10',
+    secondaryContent: 'Пн-Пт: 9:00-20:00',
+    href: 'tel:+79885485610',
+  },
+    {
+    icon: MapPin,
+    content: 'ул. 339-й Стрелковой Дивизии, 10А\nЖК "Вместе"',
+    href: null,
   },
   {
     icon: Mail,
-    title: 'Email',
     content: 'hello@teacherclasses.com',
     href: 'mailto:hello@teacherclasses.com',
   },
-  {
-    icon: MapPin,
-    title: 'Office',
-    content: '123 Learning Lane\nEducation District',
-    href: null,
-  },
+
 ]
 
 export function Contact() {
@@ -28,10 +27,10 @@ export function Contact() {
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
           <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-4">
-            Get In Touch
+            Контакты
           </h2>
           <p className="text-lg text-foreground/70 max-w-2xl mx-auto">
-            Ready to start your child's learning adventure? Contact us today!
+            Свяжитесь со мной удобным способом — обсудим цели и подберём подходящее расписание.
           </p>
         </div>
 
@@ -42,7 +41,7 @@ export function Contact() {
               const content = info.href ? (
                 <a
                   href={info.href}
-                  className="text-primary hover:text-primary/80 transition-colors"
+                  className="text-primary hover:text-primary/80 transition-colors whitespace-pre-line"
                 >
                   {info.content}
                 </a>
@@ -65,6 +64,11 @@ export function Contact() {
                   </CardHeader>
                   <CardContent className="text-center pb-6">
                     {content}
+                    {info.secondaryContent && (
+                      <div className="text-black mt-1">
+                        {info.secondaryContent}
+                      </div>
+                    )}
                   </CardContent>
                 </Card>
               )
@@ -74,16 +78,17 @@ export function Contact() {
           <Card className="bg-background shadow-lg">
             <CardHeader className="text-center">
               <CardTitle className="text-xl">
-                Schedule a Free Consultation
+                Запишитесь на пробное занятие
               </CardTitle>
             </CardHeader>
             <CardContent className="text-center pb-6">
               <p className="text-foreground/70 mb-4">
-                Let's discuss your child's needs and how we can help them thrive.
-                Call or email us to book your free 30-minute consultation.
+                Пробное занятие — это возможность познакомиться, увидеть, как проходят уроки, и понять, подходит ли ребёнку формат.
+                <br />
+                Я стараюсь, чтобы каждому ученику было спокойно, интересно и уютно учиться.
               </p>
               <p className="text-sm text-foreground/60">
-                Available Monday-Friday, 9 AM - 6 PM
+                Групповое занятие 500 руб. | Индивидуальное 700 руб.
               </p>
             </CardContent>
           </Card>
