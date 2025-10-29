@@ -60,6 +60,13 @@ const individualPlans = [
 ]
 
 export function Pricing() {
+  const handleBookingClick = () => {
+    const contactSection = document.getElementById('contact')
+    if (contactSection) {
+      contactSection.scrollIntoView({ behavior: 'smooth' })
+    }
+  }
+
   return (
     <section id="pricing" className="py-20 bg-secondary/30">
       <div className="container mx-auto px-4">
@@ -107,7 +114,8 @@ export function Pricing() {
                 <CardFooter>
                   <Button
                     className="w-full"
-                    variant={plan.popular ? 'default' : 'outline'}
+                    variant="default"
+                    onClick={handleBookingClick}
                   >
                     Записаться на занятие
                   </Button>
@@ -142,7 +150,7 @@ export function Pricing() {
                   </ul>
                 </CardContent>
                 <CardFooter>
-                  <Button className="w-full" variant="outline">
+                  <Button className="w-full" variant="default" onClick={handleBookingClick}>
                     Записаться на занятие
                   </Button>
                 </CardFooter>
