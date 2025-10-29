@@ -18,8 +18,8 @@ export function Header() {
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-background/95 backdrop-blur-sm border-b border-border">
       <nav className="container mx-auto px-4 h-16 flex items-center justify-between">
-        <a href="#" className="text-2xl font-bold text-primary font-heading">
-          KidsLearn
+        <a href="#" className="flex items-center">
+          <img src="/classes-for-kids/logo.svg" alt="KidsLearn" className="w-[43px] h-auto" />
         </a>
 
         {/* Desktop Navigation */}
