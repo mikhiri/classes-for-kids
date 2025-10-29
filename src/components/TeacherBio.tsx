@@ -16,8 +16,8 @@ export function TeacherBio() {
             <div className="order-2 md:order-1">
               <div className="aspect-[3/4] rounded-lg overflow-hidden bg-secondary/30 shadow-lg">
                 <img
-                  src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
-                  alt="Jane Anderson"
+                  src={`${import.meta.env.BASE_URL}images/teacher.jpg`}
+                  alt="Зубкова Евгения Владимировна"
                   className="w-full h-full object-cover"
                 />
               </div>
