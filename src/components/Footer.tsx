@@ -6,10 +6,10 @@ export function Footer() {
       <div className="container mx-auto px-4">
         <div className="text-center">
           <p className="text-foreground/60 text-sm">
-            © {currentYear} KidsLearn Classes. All rights reserved.
+            © {currentYear} Евгения Владимировна Зубкова. Все права защищены.
           </p>
           <p className="text-foreground/50 text-xs mt-2">
-            Empowering young minds through engaging education
+            Нескучные занятия для детей 5-9 лет в Ростове-на-Дону.
           </p>
         </div>
       </div>
