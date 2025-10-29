@@ -4,12 +4,12 @@ import { Button } from './Button'
 import { cn } from '@/lib/utils'
 
 const navigation = [
-  { name: 'What We Offer', href: '#services' },
-  { name: 'Lesson Formats', href: '#lesson-formats' },
-  { name: 'Reviews', href: '#reviews' },
-  { name: 'Pricing', href: '#pricing' },
-  { name: 'Teacher Bio', href: '#teacher-bio' },
-  { name: 'Contact', href: '#contact' },
+  { name: 'Услуги', href: '#services' },
+  { name: 'Как проходят занятия', href: '#lesson-formats' },
+  { name: 'Отзывы родителей', href: '#reviews' },
+  { name: 'Тарифы', href: '#pricing' },
+  { name: 'О преподавателе', href: '#teacher-bio' },
+  { name: 'Контакты', href: '#contact' },
 ]
 
 export function Header() {
