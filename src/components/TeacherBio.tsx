@@ -1,4 +1,4 @@
-import { GraduationCap, Award, Heart } from 'lucide-react'
+import { GraduationCap, Award, Heart, Paperclip } from 'lucide-react'
 
 export function TeacherBio() {
   return (
@@ -33,8 +33,8 @@ export function TeacherBio() {
               </p>
 
               <p className="text-lg text-foreground/80 mb-8 leading-relaxed">
-                Моя главная цель — не просто объяснить материал, а раскрыть способности ребёнка и развить
-уверенность в себе. На занятиях мы много играем, обсуждаем, рассуждаем и ищем ответы вместе. Я подбираю задания так, чтобы ребёнок учился с увлечением и удовольствием, без страха ошибок.
+                Моя главная цель — не просто объяснить материал, а помочь ребёнку раскрыть способности, поверить в себя и полюбить учёбу. На занятиях мы играем, обсуждаем, рассуждаем и ищем ответы вместе. Я стараюсь, чтобы ребёнок чувствовал себя уверенно, не боялся ошибок и учился с интересом.
+   
               </p>
 
               <div className="space-y-4">
@@ -44,10 +44,11 @@ export function TeacherBio() {
                   </div>
                   <div>
                     <h4 className="font-semibold text-foreground mb-1">
-                      Master's in Elementary Education
+                      Образование и квалификация
                     </h4>
                     <p className="text-foreground/70">
-                      Specialized in early childhood development
+                      Бакалавр и магистр ЮФУ. 
+                      Повышение квалификации в Институте социальной педагогики РАО
                     </p>
                   </div>
                 </div>
@@ -58,9 +59,9 @@ export function TeacherBio() {
                   </div>
                   <div>
                     <h4 className="font-semibold text-foreground mb-1">
-                      Опыт работы более 10 лет                    </h4>
+                      Профессиональное развитие                    </h4>
                     <p className="text-foreground/70">
-                      Working with children ages 5-9
+                      Сертификаты участника федеральных конференций
                     </p>
                   </div>
                 </div>
@@ -71,13 +72,26 @@ export function TeacherBio() {
                   </div>
                   <div>
                     <h4 className="font-semibold text-foreground mb-1">
-                      Первая квалификационная категория
+                      Признание и достижения
                     </h4>
                     <p className="text-foreground/70">
-                      Making education fun and effective
+                      Диплом и сертификаты Всероссийского фестиваля педагогического творчества
                     </p>
                   </div>
                 </div>
+              </div>
+
+              {/* Resume Link */}
+              <div className="mt-8">
+                <a
+                  href="https://docs.google.com/document/d/1pIvcCEOOpyOrYfzM0I4PnVo0BWD3zZZZfKw6yiql0Ac/edit?usp=sharing"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-2 text-primary hover:text-primary/80 transition-colors font-semibold"
+                >
+                  <Paperclip className="w-5 h-5" />
+                  <span>Полное резюме</span>
+                </a>
               </div>
             </div>
           </div>
