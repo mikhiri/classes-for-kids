@@ -116,7 +116,3 @@ classes-for-kids/
 
 ISC
 
-## Acknowledgments
-
-- Original design: https://kidspark-portfolio.lovable.app/
-- Built as a portfolio copy using modern web technologies
