@@ -18,8 +18,8 @@ const contactInfo = [
   {
     icon: Mail,
     title: 'Email',
-    content: 'mail@teacherclasses.com',
-    href: 'mailto:hello@teacherclasses.com',
+    content: 'nesku4niye-zanyatiya@yandex.ru',
+    href: 'mailto:nesku4niye-zanyatiya@yandex.ru',
   },
 ]
 
