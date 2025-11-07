@@ -15,7 +15,8 @@ const services = [
   },
   {
     icon: Calculator,
-    text: 'Работа с математикой, русским и чтением',
+    text: 'Работа с математикой, русским, английским и чтением',
+    subtext: 'По вопросам английского языка уточняйте стоимость и условия по телефону',
   },
   {
     icon: Palette,
@@ -47,7 +48,12 @@ export function WhatWeOffer() {
                 <div className="flex-shrink-0 w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center">
                   <Icon className="w-6 h-6 text-primary" />
                 </div>
-                <p className="text-lg text-foreground/80 pt-2">{service.text}</p>
+                <div className="pt-2">
+                  <p className="text-lg text-foreground/80">{service.text}</p>
+                  {service.subtext && (
+                    <p className="text-sm text-foreground/50 mt-1">{service.subtext}</p>
+                  )}
+                </div>
               </div>
             )
           })}
