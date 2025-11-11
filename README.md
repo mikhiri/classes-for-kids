@@ -1,6 +1,6 @@
 # KidsLearn - Children's Education Website
 
-A modern, responsive React + TypeScript website for children's educational services, copied from https://kidspark-portfolio.lovable.app/
+A modern, responsive React + TypeScript website for children's educational services.
 
 ## Features
 
@@ -112,7 +112,4 @@ classes-for-kids/
 - **Tablet**: 768px - 1024px
 - **Desktop**: > 1024px
 
-## License
-
-ISC
 
