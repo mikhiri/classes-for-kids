@@ -6,6 +6,7 @@ import { LessonFormats } from './components/LessonFormats'
 import { Reviews } from './components/Reviews'
 import { Pricing } from './components/Pricing'
 import { TeacherBio } from './components/TeacherBio'
+import PhotoGallery from './components/PhotoGallery'
 import { Contact } from './components/Contact'
 import { Footer } from './components/Footer'
 
@@ -21,6 +22,7 @@ function App() {
         <Reviews />
         <Pricing />
         <TeacherBio />
+        <PhotoGallery />
         <Contact />
       </main>
       <Footer />
